@@ -21,7 +21,7 @@ export const zodiacDescBlocks = {
     compatibility: { ru: "Рыбы", en: "pisces" },
     description: "Телец – стабильный и целеустремленный, наслаждающийся материальными удовольствиями."
   },
-  gemini: {
+  twins: {
     quality: { ru: "Мутабельный", en: "mutable" },
     planet: { ru: "Меркурий", en: "mercury" },
     managingHouse: { ru: "Третий", en: "third" },
@@ -43,7 +43,7 @@ export const zodiacDescBlocks = {
     compatibility: { ru: "Дева", en: "virgo" },
     description: "Рак – чуткий и эмоциональный, обладающий сильной интуицией и защищающий своих близких."
   },
-  leo: {
+  lion: {
     quality: { ru: "Фиксированный", en: "fixed" },
     planet: { ru: "Солнце", en: "sun" },
     managingHouse: { ru: "Пятый", en: "fifth" },
@@ -65,7 +65,7 @@ export const zodiacDescBlocks = {
     compatibility: { ru: "Рак", en: "cancer" },
     description: "Дева – аналитичный и практичный, стремящийся к совершенству и порядку."
   },
-  libra: {
+  scales: {
     quality: { ru: "Кардинальный", en: "cardinal" },
     planet: { ru: "Венера", en: "venus" },
     managingHouse: { ru: "Седьмой", en: "seventh" },
@@ -76,7 +76,7 @@ export const zodiacDescBlocks = {
     compatibility: { ru: "Лев", en: "leo" },
     description: "Весы – общительный и дипломатичный, стремящийся к гармонии и равновесию."
   },
-  scorpio: {
+  scorpion: {
     quality: { ru: "Фиксированный", en: "fixed" },
     planet: { ru: "Плутон", en: "pluto" },
     managingHouse: { ru: "Восьмой", en: "eighth" },
@@ -120,7 +120,7 @@ export const zodiacDescBlocks = {
     compatibility: { ru: "Овен", en: "oven" },
     description: "Водолей – инновационный и независимый, стремящийся к переменам и свободе выражения."
   },
-  pisces: {
+  fish: {
     quality: { ru: "Мутабельный", en: "mutable" },
     planet: { ru: "Нептун", en: "neptune" },
     managingHouse: { ru: "Двенадцатый", en: "twelfth" },

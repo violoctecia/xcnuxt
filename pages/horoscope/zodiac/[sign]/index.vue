@@ -17,16 +17,16 @@ const sign = route.params.sign;
 const signNames = {
   oven: "Овен",
   taurus: "Телец",
-  gemini: "Близнецы",
+  twins: "Близнецы",
   cancer: "Рак",
-  leo: "Лев",
+  lion: "Лев",
   virgo: "Дева",
-  libra: "Весы",
-  scorpio: "Скорпион",
+  scales: "Весы",
+  scorpion: "Скорпион",
   sagittarius: "Стрелец",
   capricorn: "Козерог",
   aquarius: "Водолей",
-  pisces: "Рыбы",
+  fish: "Рыбы",
 };
 
 const russianSign = signNames[sign] || sign;

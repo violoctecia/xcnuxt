@@ -49,7 +49,7 @@ const wrapperClass = props.scroll
     </nuxt-link>
 
     <!-- Близнецы -->
-    <nuxt-link to="/horoscope/zodiac/gemini" class="zodiac_block">
+    <nuxt-link to="/horoscope/zodiac/twins" class="zodiac_block">
       <div class="img">
         <GeminiSvg></GeminiSvg>
       </div>
@@ -71,7 +71,7 @@ const wrapperClass = props.scroll
     </nuxt-link>
 
     <!-- Лев -->
-    <nuxt-link to="/horoscope/zodiac/leo" class="zodiac_block">
+    <nuxt-link to="/horoscope/zodiac/lion" class="zodiac_block">
       <div class="img">
         <LeoSvg></LeoSvg>
       </div>
@@ -93,7 +93,7 @@ const wrapperClass = props.scroll
     </nuxt-link>
 
     <!-- Весы -->
-    <nuxt-link to="/horoscope/zodiac/libra" class="zodiac_block">
+    <nuxt-link to="/horoscope/zodiac/scales" class="zodiac_block">
       <div class="img">
         <LibraSvg></LibraSvg>
       </div>
@@ -104,7 +104,7 @@ const wrapperClass = props.scroll
     </nuxt-link>
 
     <!-- Скорпион -->
-    <nuxt-link to="/horoscope/zodiac/scorpio" class="zodiac_block">
+    <nuxt-link to="/horoscope/zodiac/scorpion" class="zodiac_block">
       <div class="img">
         <ScorpioSvg></ScorpioSvg>
       </div>
@@ -148,7 +148,7 @@ const wrapperClass = props.scroll
     </nuxt-link>
 
     <!-- Рыбы -->
-    <nuxt-link to="/horoscope/zodiac/pisces" class="zodiac_block">
+    <nuxt-link to="/horoscope/zodiac/fish" class="zodiac_block">
       <div class="img">
         <PiscesSvg></PiscesSvg>
       </div>
