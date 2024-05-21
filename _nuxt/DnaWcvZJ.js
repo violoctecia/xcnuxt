@@ -1,0 +1,1 @@
+import{g as e,o,c,h as n,B as t}from"./D0fYbKmV.js";const a={},r={class:"pagelinks"},i={class:"container"};function _(s,l){return o(),c("section",r,[n("div",i,[t(s.$slots,"links")])])}const f=e(a,[["render",_]]);export{f as P};
