@@ -1,6 +1,6 @@
-// нет астры
-// нет бессмертника
-// нет вереска
+import astra from '@/assets/public/floral/астра.svg'
+import besmert from '@/assets/public/floral/бессмертник.svg'
+import veresk from '@/assets/public/floral/вереск.svg'
 import mimoza from '@/assets/public/floral/Property 1=мимоза.svg'
 import podsolnuh from '@/assets/public/floral/Property 1=подссолнух.svg'
 import portulak from '@/assets/public/floral/Property 1=портулак.svg'
@@ -19,7 +19,7 @@ import magnolia from '@/assets/public/floral/Property 1=магнолия.svg'
 import siren from '@/assets/public/floral/Property 1=сирень.svg'
 import gorechavka from '@/assets/public/floral/Property 1=горечавка.svg'
 import gortenzia from '@/assets/public/floral/Property 1=гортензия.svg'
-// нет камелии
+import kameliya from '@/assets/public/floral/камелия.svg'
 import kolokolchik from '@/assets/public/floral/Property 1=колокольчик.svg'
 import krasavka from '@/assets/public/floral/Property 1=красавка.svg'
 import kuvshinka from '@/assets/public/floral/Property 1=кувшинка.svg'
@@ -36,9 +36,9 @@ import shipovnik from '@/assets/public/floral/Property 1=шиповник.svg'
 import edelveis from '@/assets/public/floral/Property 1=эдельвейс.svg'
 
 export const floralSigns = [
-    {ru: 'Астра', en: 'aster', description: 'цветочек описание'},
-    {ru: 'Бессмертник', en: 'immortelle', description: 'цветочек описание'},
-    {ru: 'Вереск', en: 'heather', description: 'цветочек описание'},
+    {ru: 'Астра', en: 'aster', description: 'цветочек описание', image: astra},
+    {ru: 'Бессмертник', en: 'immortelle', description: 'цветочек описание', image: besmert},
+    {ru: 'Вереск', en: 'heather', description: 'цветочек описание', image: veresk},
     {ru: 'Мимоза', en: 'mimosa', description: 'цветочек описание', image: mimoza},
     {ru: 'Подсолнух', en: 'sunflower', description: 'цветочек описание', image: podsolnuh},
     {ru: 'Портулак', en: 'portulaca', description: 'цветочек описание', image: portulak},
@@ -57,7 +57,7 @@ export const floralSigns = [
     {ru: 'Сирень', en: 'lilac', description: 'цветочек описание', image: siren},
     {ru: 'Горечавка', en: 'gentian', description: 'цветочек описание', image: gorechavka},
     {ru: 'Гортензия', en: 'hydrangea', description: 'цветочек описание', image: gortenzia},
-    {ru: 'Камелия', en: 'camellia', description: 'цветочек описание'},
+    {ru: 'Камелия', en: 'camellia', description: 'цветочек описание', image: kameliya},
     {ru: 'Колокольчик', en: 'bellflower', description: 'цветочек описание', image: kolokolchik},
     {ru: 'Красавка', en: 'foxglove', description: 'цветочек описание', image: krasavka},
     {ru: 'Кувшинка', en: 'buttercup', description: 'цветочек описание', image: kuvshinka},

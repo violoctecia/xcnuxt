@@ -5,8 +5,8 @@ import dub from '@/assets/public/druids/Property 1=дуб.svg'
 import zhasmin from '@/assets/public/druids/Property 1=жасмин.svg'
 import iva from '@/assets/public/druids/Property 1=Ива.svg'
 import inzhir from '@/assets/public/druids/Property 1=инжир.svg'
-// нет кедра
-// нет каштана
+import kedr from '@/assets/public/druids/кедр.svg'
+import kashtan from '@/assets/public/druids/каштан.svg'
 import kiparis from '@/assets/public/druids/Property 1=кипарис.svg'
 import klen from '@/assets/public/druids/Property 1=клен.svg'
 import lipa from '@/assets/public/druids/Property 1=липа.svg'
@@ -30,8 +30,8 @@ export const druidSigns = [
     { ru: 'Жасмин', en: 'jasmine', description: 'Символ чувственности и привлекательности. Жасмин вдохновляет красотой и страстью.', image: zhasmin },
     { ru: 'Ива', en: 'willow', description: 'Символ гибкости и жизненной силы. Ива помогает адаптироваться к переменам и расти.', image: iva },
     { ru: 'Инжир', en: 'fig', description: 'Символ изобилия и плодородия. Инжир призывает к терпению и жертвенности.', image: inzhir },
-    { ru: 'Кедр', en: 'rowan', description: 'Символ защиты от зла и негатива. Картас помогает отразить негативные воздействия.', },
-    { ru: 'Каштан', en: 'chestnut', description: 'Символ силы и устойчивости. Каштан призывает к созиданию и стабильности.', },
+    { ru: 'Кедр', en: 'rowan', description: 'Символ защиты от зла и негатива. Картас помогает отразить негативные воздействия.',image: kedr  },
+    { ru: 'Каштан', en: 'chestnut', description: 'Символ силы и устойчивости. Каштан призывает к созиданию и стабильности.', image: kashtan},
     { ru: 'Кипарис', en: 'cypress', description: 'Символ памяти и прошлого. Кипарис помогает вспомнить и проанализировать прошлые события.', image: kiparis },
     { ru: 'Клен', en: 'maple', description: 'Символ служения и покорности. Клен помогает учиться на ошибках и становиться лучше.', image: klen },
     { ru: 'Липа', en: 'linden', description: 'Символ общения и дружбы. Липа помогает находить гармонию в отношениях и поддерживать связи.', image: lipa },

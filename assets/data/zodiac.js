@@ -8,6 +8,8 @@ export const zodiacDescBlocks = {
     flowers: { ru: "Жимолость", en: "honeysuckle" },
     color: { ru: "Красный", en: "red" },
     compatibility: { ru: "Водолей", en: "aquarius" },
+    element: { ru: "Огонь", en: "fire"},
+    archetype: { ru: "Воин", en: "warrior"},
     description: "Овен – энергичный и динамичный, готовый идти напролом к своим целям."
   },
   taurus: {
@@ -19,6 +21,8 @@ export const zodiacDescBlocks = {
     flowers: { ru: "Фиалка", en: "violet" },
     color: { ru: "Зеленый", en: "green" },
     compatibility: { ru: "Рыбы", en: "pisces" },
+    element: { ru: "Земля", en: "earth"},
+    archetype: { ru: "Гедонист", en: "hedonist"},
     description: "Телец – стабильный и целеустремленный, наслаждающийся материальными удовольствиями."
   },
   twins: {
@@ -30,6 +34,8 @@ export const zodiacDescBlocks = {
     flowers: { ru: "Лаванда", en: "lavender" },
     color: { ru: "Желтый", en: "yellow" },
     compatibility: { ru: "Стрелец", en: "sagittarius" },
+    element: { ru: "Воздух", en: "air"},
+    archetype: { ru: "Искатель", en: "seeker"},
     description: "Близнецы – общительные и интеллектуальные, всегда ищущие новые приключения."
   },
   cancer: {
@@ -41,6 +47,8 @@ export const zodiacDescBlocks = {
     flowers: { ru: "Ландыш", en: "lily" },
     color: { ru: "Серебряный", en: "silver" },
     compatibility: { ru: "Дева", en: "virgo" },
+    element: { ru: "Вода", en: "water"},
+    archetype: { ru: "Опекун", en: "guardian"},
     description: "Рак – чуткий и эмоциональный, обладающий сильной интуицией и защищающий своих близких."
   },
   lion: {
@@ -52,6 +60,8 @@ export const zodiacDescBlocks = {
     flowers: { ru: "Подсолнух", en: "sunflower" },
     color: { ru: "Золотой", en: "gold" },
     compatibility: { ru: "Весы", en: "libra" },
+    element: { ru: "Огонь", en: "fire"},
+    archetype: { ru: "Шут", en: "jester"},
     description: "Лев – страстный и уверенный, искрящийся энергией и креативностью."
   },
   virgo: {
@@ -63,6 +73,8 @@ export const zodiacDescBlocks = {
     flowers: { ru: "Мать_и_мачеха", en: "morning_glory" },
     color: { ru: "Бежевый", en: "beige" },
     compatibility: { ru: "Рак", en: "cancer" },
+    element: { ru: "Земля", en: "earth"},
+    archetype: { ru: "Служитель", en: "servant"},
     description: "Дева – аналитичный и практичный, стремящийся к совершенству и порядку."
   },
   scales: {
@@ -74,6 +86,8 @@ export const zodiacDescBlocks = {
     flowers: { ru: "Роза", en: "rose" },
     color: { ru: "Розовый", en: "pink" },
     compatibility: { ru: "Лев", en: "leo" },
+    element: { ru: "Воздух", en: "air"},
+    archetype: { ru: "Возлюбленный", en: "beloved"},
     description: "Весы – общительный и дипломатичный, стремящийся к гармонии и равновесию."
   },
   scorpion: {
@@ -85,6 +99,8 @@ export const zodiacDescBlocks = {
     flowers: { ru: "Кактус", en: "cactus" },
     color: { ru: "Черный", en: "black" },
     compatibility: { ru: "Козерог", en: "capricorn" },
+    element: { ru: "Вода", en: "water"},
+    archetype: { ru: "Маг", en: "mage"},
     description: "Скорпион – страстный и интуитивный, всегда ищущий глубину и правду."
   },
   sagittarius: {
@@ -96,6 +112,8 @@ export const zodiacDescBlocks = {
     flowers: { ru: "Нарцисс", en: "daffodil" },
     color: { ru: "Фиолетовый", en: "purple" },
     compatibility: { ru: "Близнецы", en: "gemini" },
+    element: { ru: "Огонь", en: "fire"},
+    archetype: { ru: "Мудрец", en: "sage"},
     description: "Стрелец – оптимистичный и свободолюбивый, стремящийся к истине и приключениям."
   },
   capricorn: {
@@ -107,6 +125,8 @@ export const zodiacDescBlocks = {
     flowers: { ru: "Гортензия", en: "hydrangea" },
     color: { ru: "Коричневый", en: "brown" },
     compatibility: { ru: "Скорпион", en: "scorpio" },
+    element: { ru: "Земля", en: "earth"},
+    archetype: { ru: "Правитель", en: "ruler"},
     description: "Козерог – целеустремленный и практичный, стремящийся к стабильности и достижению целей."
   },
   aquarius: {
@@ -118,6 +138,8 @@ export const zodiacDescBlocks = {
     flowers: { ru: "Орхидея", en: "orchid" },
     color: { ru: "Синий", en: "blue" },
     compatibility: { ru: "Овен", en: "oven" },
+    element: { ru: "Воздух", en: "air"},
+    archetype: { ru: "Творец", en: "creator"},
     description: "Водолей – инновационный и независимый, стремящийся к переменам и свободе выражения."
   },
   fish: {
@@ -129,6 +151,8 @@ export const zodiacDescBlocks = {
     flowers: { ru: "Водяная лилия", en: "water_lily" },
     color: { ru: "Изумрудный", en: "emerald" },
     compatibility: { ru: "Телец", en: "taurus" },
+    element: { ru: "Вода", en: "water"},
+    archetype: { ru: "Невинный", en: "innocent"},
     description: "Рыбы – чувствительные и вдохновенные, стремящиеся к духовной гармонии и спасению."
   }
 };
@@ -575,5 +599,123 @@ export const zodiacCompatibility = {
       en: "pisces"
     },
     description: "Рыбы совместимы с Тельцом. Их чувствительность и вдохновение находят поддержку в практичности и стабильности Тельца, что создает глубокие и интуитивные отношения."
+  }
+};
+
+export const zodiacElements = {
+  fire: {
+    title: {
+      ru: "Огонь",
+      en: "fire"
+    },
+    description: "Огонь символизирует страсть, энтузиазм и активность. Люди, связанные с этим элементом, обладают сильным внутренним огнем, который побуждает их к действию и достижению своих целей с решительностью и энергией."
+  },
+  earth: {
+    title: {
+      ru: "Земля",
+      en: "earth"
+    },
+    description: "Земля представляет стабильность, практичность и надежность. Люди, связанные с этим элементом, обычно привержены традициям, заботятся о материальной стороне жизни и стремятся к стабильности и безопасности."
+  },
+  air: {
+    title: {
+      ru: "Воздух",
+      en: "air"
+    },
+    description: "Воздух символизирует свободу, интеллект и коммуникацию. Люди, связанные с этим элементом, обычно обладают аналитическим мышлением, ценят свободу и независимость, и стремятся к общению и обмену идеями."
+  },
+  water: {
+    title: {
+      ru: "Вода",
+      en: "water"
+    },
+    description: "Вода символизирует эмоциональность, интуицию и чувствительность. Люди, связанные с этим элементом, часто обладают глубокими эмоциями, сильной интуицией и стремятся к гармонии и взаимопониманию."
+  }
+};
+
+export const zodiacArchetype = {
+  warrior: {
+    title: {
+      ru: "Воин",
+      en: "warrior"
+    },
+    description: "Warrior archetype description."
+  },
+  hedonist: {
+    title: {
+      ru: "Гедонист",
+      en: "hedonist"
+    },
+    description: "Hedonist archetype description."
+  },
+  seeker: {
+    title: {
+      ru: "Искатель",
+      en: "seeker"
+    },
+    description: "Seeker archetype description."
+  },
+  guardian: {
+    title: {
+      ru: "Опекун",
+      en: "guardian"
+    },
+    description: "Guardian archetype description."
+  },
+  jester: {
+    title: {
+      ru: "Шут",
+      en: "jester"
+    },
+    description: "Jester archetype description."
+  },
+  servant: {
+    title: {
+      ru: "Служитель",
+      en: "servant"
+    },
+    description: "Servant archetype description."
+  },
+  beloved: {
+    title: {
+      ru: "Возлюбленный",
+      en: "beloved"
+    },
+    description: "Beloved archetype description."
+  },
+  mage: {
+    title: {
+      ru: "Маг",
+      en: "mage"
+    },
+    description: "Mage archetype description."
+  },
+  sage: {
+    title: {
+      ru: "Мудрец",
+      en: "sage"
+    },
+    description: "Sage archetype description."
+  },
+  ruler: {
+    title: {
+      ru: "Правитель",
+      en: "ruler"
+    },
+    description: "Ruler archetype description."
+  },
+  creator: {
+    title: {
+      ru: "Творец",
+      en: "creator"
+    },
+    description: "Creator archetype description."
+  },
+  innocent: {
+    title: {
+      ru: "Невинный",
+      en: "innocent"
+    },
+    description: "Innocent archetype description."
   }
 };

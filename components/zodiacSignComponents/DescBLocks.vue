@@ -49,20 +49,20 @@ import {zodiacDescBlocks} from "assets/data/zodiac.js";
           <p>{{ zodiacDescBlocks[sign].tarot.ru }}</p>
         </nuxt-link>
 
-        <div class="block">
-          <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="32" cy="32" r="32" fill="#111010"/>
-          </svg>
-          <h2>Камень удачи</h2>
-          <p>{{ zodiacDescBlocks[sign].stone.ru }}</p>
-        </div>
-        <div class="block">
-          <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="32" cy="32" r="32" fill="#111010"/>
-          </svg>
-          <h2>Цветок - талисман</h2>
-          <p>{{ zodiacDescBlocks[sign].flowers.ru }}</p>
-        </div>
+<!--        <div class="block">-->
+<!--          <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">-->
+<!--            <circle cx="32" cy="32" r="32" fill="#111010"/>-->
+<!--          </svg>-->
+<!--          <h2>Камень удачи</h2>-->
+<!--          <p>{{ zodiacDescBlocks[sign].stone.ru }}</p>-->
+<!--        </div>-->
+<!--        <div class="block">-->
+<!--          <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">-->
+<!--            <circle cx="32" cy="32" r="32" fill="#111010"/>-->
+<!--          </svg>-->
+<!--          <h2>Цветок - талисман</h2>-->
+<!--          <p>{{ zodiacDescBlocks[sign].flowers.ru }}</p>-->
+<!--        </div>-->
 
         <nuxt-link :to="`/horoscope/zodiac/color/${zodiacDescBlocks[sign].color.en}`" class="block">
           <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -78,6 +78,22 @@ import {zodiacDescBlocks} from "assets/data/zodiac.js";
           </svg>
           <h2>Лучшая совместимость</h2>
           <p>{{ zodiacDescBlocks[sign].compatibility.ru }}</p>
+        </nuxt-link>
+
+        <nuxt-link :to="`/horoscope/zodiac/element/${zodiacDescBlocks[sign].element.en}`" class="block">
+          <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="32" cy="32" r="32" fill="#111010"/>
+          </svg>
+          <h2>Стихия</h2>
+          <p>{{ zodiacDescBlocks[sign].element.ru }}</p>
+        </nuxt-link>
+
+        <nuxt-link :to="`/horoscope/zodiac/archetype/${zodiacDescBlocks[sign].archetype.en}`" class="block">
+          <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="32" cy="32" r="32" fill="#111010"/>
+          </svg>
+          <h2>Архетип</h2>
+          <p>{{ zodiacDescBlocks[sign].archetype.ru }}</p>
         </nuxt-link>
 
       </div>
