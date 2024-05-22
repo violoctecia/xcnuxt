@@ -1,4 +1,15 @@
-<script setup></script>
+<script setup>
+import { useRuntimeConfig } from '#app';
+
+const config = useRuntimeConfig();
+const apiUrl = `${config.public.apiBaseUrl}/lunar-horoscope`;
+
+const { data: lunarHoroscopeData, pending, error } = await useFetch(apiUrl);
+
+if (error.value) {
+  console.error('Ошибка при получении данных лунного гороскопа:', error.value);
+}
+</script>
 
 <template>
   <section class="main">
@@ -17,16 +28,10 @@
       <div class="main_card">
         <h1>Лунный гороскоп на сегодня</h1>
         <div class="date">
-          <p>5–6 лунные сутки</p>
-          <p>24.12.2024</p>
+          <p>{{ lunarHoroscopeData.lunar_day }}</p>
+          <p>{{ lunarHoroscopeData.date }}</p>
         </div>
-        <p>
-          Гороскоп на сегодня говорит, что это день, когда звезды призывают нас
-          следовать своей интуиции. Поддаемся вдохновению и не боимся
-          исследовать новые возможности. День благоприятен для самовыражения,
-          общения с близкими и укрепления душевного равновесия. Наслаждаемся
-          каждым моментом и делимся своей положительной энергией с окружающими.
-        </p>
+        <p>{{ lunarHoroscopeData.text }}</p>
       </div>
     </div>
   </section>

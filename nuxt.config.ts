@@ -6,4 +6,9 @@ export default defineNuxtConfig({
   // app: {
   //   baseURL: '/static-nuxt/',
   // },
+  runtimeConfig: {
+    public: {
+      apiBaseUrl: process.env.NUXT_PUBLIC_API_BASE_URL
+    }
+  }
 });

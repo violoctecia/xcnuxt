@@ -53,6 +53,18 @@ const goToHoroscope = (period) => {
   const horoscopePath = `/horoscope/zodiac/${sign}/${period}`;
   router.push(horoscopePath);
 };
+
+//get
+import { useRuntimeConfig } from '#app';
+
+const config = useRuntimeConfig();
+const apiUrl = `${config.public.apiBaseUrl}/horoscope/zodiac/${sign}/monthly`;
+
+const { data: horoscopeData, pending, error } = await useFetch(apiUrl);
+
+if (error.value) {
+  console.error('Ошибка при получении данных датированного гороскопа:', error.value);
+}
 </script>
 
 <template>
@@ -70,7 +82,7 @@ const goToHoroscope = (period) => {
   </PageLinks>
 
   <HoroscopeDate
-    :dateInfo="{ russianDate: russianDate, genitiveCase: genitiveCase }"
+      :dateInfo="{ russianDate: russianDate, genitiveCase: genitiveCase }" :text="horoscopeData.text"
   ></HoroscopeDate>
 
   <div class="choose_date">
