@@ -92,41 +92,11 @@ if (error.value) {
       <div class="popup">
         <p>Гороскопы на другие дни:</p>
         <div class="select">
-          <button
-              v-if="selectedDate !== 'today'"
-              :class="{ active: selectedDate === 'today' }"
-              @click="goToHoroscope('today')"
-          >
-            Сегодня
-          </button>
-          <button
-              v-if="selectedDate !== 'tomorrow'"
-              :class="{ active: selectedDate === 'tomorrow' }"
-              @click="goToHoroscope('tomorrow')"
-          >
-            Завтра
-          </button>
-          <button
-              v-if="selectedDate !== 'weekly'"
-              :class="{ active: selectedDate === 'weekly' }"
-              @click="goToHoroscope('weekly')"
-          >
-            Неделя
-          </button>
-          <button
-              v-if="selectedDate !== 'monthly'"
-              :class="{ active: selectedDate === 'monthly' }"
-              @click="goToHoroscope('monthly')"
-          >
-            Месяц
-          </button>
-          <button
-              v-if="selectedDate !== 'yearly'"
-              :class="{ active: selectedDate === 'yearly' }"
-              @click="goToHoroscope('yearly')"
-          >
-            Год
-          </button>
+          <button @click="goToHoroscope('today')">Сегодня</button>
+          <button @click="goToHoroscope('tomorrow')">Завтра</button>
+          <button @click="goToHoroscope('weekly')">Неделя</button>
+          <button @click="goToHoroscope('monthly')">Месяц</button>
+
         </div>
       </div>
     </div>

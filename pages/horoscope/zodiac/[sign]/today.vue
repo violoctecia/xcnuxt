@@ -4,9 +4,9 @@ import HoroscopeDate from "@/components/zodiacSignDateComponents/HoroscopeDate.v
 import BlockCelebrity from "@/components/zodiacSignComponents/BlockCelebrity.vue";
 import EastSection from "@/components/mainComponents/EastSection.vue";
 import OtherSection from "@/components/mainComponents/OtherSection.vue";
-import { useRoute, useRouter } from "vue-router";
-import { ref } from "vue";
-import { computed } from "vue";
+import {useRoute, useRouter} from "vue-router";
+import {ref} from "vue";
+import {computed} from "vue";
 
 const route = useRoute();
 const props = defineProps({
@@ -55,12 +55,12 @@ const goToHoroscope = (period) => {
 };
 
 //get
-import { useRuntimeConfig } from '#app';
+import {useRuntimeConfig} from '#app';
 
 const config = useRuntimeConfig();
 const apiUrl = `${config.public.apiBaseUrl}/horoscope/zodiac/${sign}/today`;
 
-const { data: horoscopeData, pending, error } = await useFetch(apiUrl);
+const {data: horoscopeData, pending, error} = await useFetch(apiUrl);
 
 if (error.value) {
   console.error('Ошибка при получении данных датированного гороскопа:', error.value);
@@ -92,41 +92,10 @@ if (error.value) {
       <div class="popup">
         <p>Гороскопы на другие дни:</p>
         <div class="select">
-          <button
-              v-if="selectedDate !== 'today'"
-              :class="{ active: selectedDate === 'today' }"
-              @click="goToHoroscope('today')"
-          >
-            Сегодня
-          </button>
-          <button
-              v-if="selectedDate !== 'tomorrow'"
-              :class="{ active: selectedDate === 'tomorrow' }"
-              @click="goToHoroscope('tomorrow')"
-          >
-            Завтра
-          </button>
-          <button
-              v-if="selectedDate !== 'weekly'"
-              :class="{ active: selectedDate === 'weekly' }"
-              @click="goToHoroscope('weekly')"
-          >
-            Неделя
-          </button>
-          <button
-              v-if="selectedDate !== 'monthly'"
-              :class="{ active: selectedDate === 'monthly' }"
-              @click="goToHoroscope('monthly')"
-          >
-            Месяц
-          </button>
-          <button
-              v-if="selectedDate !== 'yearly'"
-              :class="{ active: selectedDate === 'yearly' }"
-              @click="goToHoroscope('yearly')"
-          >
-            Год
-          </button>
+          <button @click="goToHoroscope('tomorrow')">Завтра</button>
+          <button @click="goToHoroscope('weekly')">Неделя</button>
+          <button @click="goToHoroscope('monthly')">Месяц</button>
+          <button @click="goToHoroscope('yearly')">Год</button>
         </div>
       </div>
     </div>

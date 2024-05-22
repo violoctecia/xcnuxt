@@ -3,9 +3,6 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ["@/assets/base.css"],
   ssr: true,
-  // app: {
-  //   baseURL: '/static-nuxt/',
-  // },
   runtimeConfig: {
     public: {
       apiBaseUrl: process.env.NUXT_PUBLIC_API_BASE_URL
